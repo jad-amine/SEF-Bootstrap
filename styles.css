@@ -3,4 +3,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+header{
+    background: url("./public/presentation.JPG");
+    background:linear-gradient(to bottom, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0.4)), url("./public/presentation.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    height: 780px;
+}
+
+.top{
+    padding-top: 40px;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+header ul li:first-child{
+    text-decoration: underline;
+}
+
+li{
+    margin-right: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+
+header ul{
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+/* Utilities */
+.btn-green{
+    background-color: rgb(26, 219, 0);
+    padding: 7px;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    margin-right: 40px;
+}
+
+.hero{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.hero h1{
+    font-size: 70px;
+}
+
+.hero h2{
+    font-size: 50px;
+}
+
+.hero div{
+    margin-top: 30px;
+    width: 40%;
+    font-size: 25px;
+}
+
+.hero button{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#two{
+    margin-top: 60px;
+}
+
+#two h2{
+    color: rgb(57, 252, 32);
+    font-size: 60px;
+}
+
+#two span{
+    font-weight: bolder;
+    font-size: 25px;
+}
