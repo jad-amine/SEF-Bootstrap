@@ -42,7 +42,6 @@ header ul{
     justify-content: end;
 }
 
-/* Utilities */
 .btn-green{
     background-color: rgb(26, 219, 0);
     padding: 7px;
@@ -78,22 +77,61 @@ header ul{
     font-weight: bold;
 }
 
-.stats{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#two{
+#one{
     margin-top: 60px;
 }
 
-#two h2{
+#one h2{
     color: rgb(57, 252, 32);
     font-size: 60px;
 }
 
-#two span{
+#one p{
     font-weight: bolder;
     font-size: 25px;
+}
+
+.dash{
+    border-top: 1px solid black;
+    width: 10px;
+}
+
+.next{
+    text-align: center;
+    width: 80%;
+}
+
+#two{
+    margin-top: 50px;
+
+}
+
+#two img{
+    margin-left: 30px;
+    width: 120%;
+}
+
+#two h2{
+    text-align: start;
+}
+
+#two p, #two a{
+    text-align: start;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+#two a{
+    color: rgb(57, 252, 32);
+    text-decoration: underline;
+}
+
+.row div:last-of-type{
+    width: 70%;
+}
+
+@media (max-width:920px){
+    .links{
+        display: none;
+    }
 }
