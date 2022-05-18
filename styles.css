@@ -57,7 +57,7 @@ header ul{
 }
 
 .hero h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .hero h2{
@@ -130,8 +130,27 @@ header ul{
     width: 70%;
 }
 
+#three{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(57, 252, 32);
+    color: white;
+    padding-top: 50px;
+}
+
+
+#three img{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 80%;
+}
+
 @media (max-width:920px){
     .links{
         display: none;
+    }
+
+    .shrink{
+        font-size: 60%;
     }
 }
