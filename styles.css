@@ -13,7 +13,7 @@ header{
     background-position: center;
     color: #fff;
     position: relative;
-    height: 780px;
+
 }
 
 .top{
@@ -73,9 +73,12 @@ header ul{
 .hero button{
     margin-top: 50px;
     margin-left: 30px;
+    margin-bottom: 30px;
     padding: 15px;
     font-weight: bold;
 }
+
+/* Section 2 Statistics */
 
 #one{
     margin-top: 60px;
@@ -101,6 +104,7 @@ header ul{
     width: 80%;
 }
 
+/* Section 2 Skills */
 #two{
     margin-top: 50px;
 
@@ -130,6 +134,7 @@ header ul{
     width: 70%;
 }
 
+/* Section 3 programs */
 #three{
     margin-top: 100px;
     text-align: center;
@@ -145,12 +150,101 @@ header ul{
     width: 80%;
 }
 
-@media (max-width:920px){
+/* Section 4 market */
+#four{
+    margin-top: 70px;
+}
+
+#four img{
+    width: 100%;
+}
+
+#four h2{
+    font-size: 35px;
+}
+
+#four p{
+    margin-top: 25px;
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+#four a{
+    font-size: 25px;
+    color: rgb(57, 252, 32);
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+
+/* Section 5 five */
+#five{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.RP p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#five img:first-of-type{
+    width: 100%;
+}
+
+#five #review{
+    margin-top: 60px;
+    width: 70%;
+}
+
+/* Section 6 Media */
+#six{
+    margin-top: 40px;
+    background-color: rgb(230, 230, 230);
+}
+
+#six h1{
+    font-weight: bold;
+    padding: 40px;
+}
+
+#six img{
+    width: 70;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Section 7 Partners */
+#seven{
+    margin-top: 40px;
+}
+
+#seven img:first-of-type{
+    width: 100%;
+}
+
+.split{
+    width: 80%;
+    background-color: black;
+    height: 2px;
+}
+
+#seven h1:last-of-type{
+    padding: 20px;
+}
+
+.partners{
+    width: 100px;
+    height: 110%;
+}
+
+/* Media Queries */
+@media (max-width: 920px){
     .links{
         display: none;
     }
 
     .shrink{
-        font-size: 60%;
+        font-size: 80%;
     }
 }
